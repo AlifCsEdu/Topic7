@@ -47,6 +47,7 @@ public class SavingsGenerator extends JFrame implements ActionListener {
         //Register listener
         btnCalc.addActionListener(this);
 
+        setLocationRelativeTo(null);
         setSize(450,175);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

@@ -58,6 +58,7 @@ public class Arithmetic_calc extends JFrame implements ActionListener{
         btnDIV.addActionListener(this);
         btnMOD.addActionListener(this);
 
+        setLocationRelativeTo(null);
         setSize(300, 200);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

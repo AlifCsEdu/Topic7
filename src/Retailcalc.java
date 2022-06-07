@@ -45,6 +45,7 @@ public class Retailcalc extends JFrame implements ActionListener {
         //register listener
         btnCalc.addActionListener(this);
 
+        setLocationRelativeTo(null);
         setSize(300, 120);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

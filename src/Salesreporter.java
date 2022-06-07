@@ -36,7 +36,8 @@ public class Salesreporter extends JFrame implements ActionListener{
         //register listener
         btnCalculate.addActionListener(this);
 
-        setSize(250,175);
+        setLocationRelativeTo(null);
+        setSize(250,100);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
